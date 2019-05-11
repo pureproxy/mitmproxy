@@ -1,0 +1,39 @@
+{
+  "name": "@pureproxy/mitmproxy",
+  "version": "1.0.0",
+  "description": "Mitm, intercepting proxy server designed with simplicity and extensibility in mind",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pureproxy/mitmproxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "server",
+    "stream",
+    "http",
+    "https",
+    "websocket",
+    "websockets",
+    "mitm",
+    "tls",
+    "ssl"
+  ],
+  "author": "pdparchitect",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pureproxy/mitmproxy/issues"
+  },
+  "homepage": "https://github.com/pureproxy/mitmproxy#readme",
+  "dependencies": {
+    "@pureproxy/pureproxy": "^1.0.0",
+    "native-duplexpair": "^1.0.0",
+    "node-forge": "^0.8.2"
+  }
+}
