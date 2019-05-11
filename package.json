@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/pureproxy/mitmproxy#readme",
   "dependencies": {
-    "@pureproxy/pureproxy": "^1.0.1",
+    "@pureproxy/pureproxy": "^1.0.2",
     "native-duplexpair": "^1.0.0",
     "node-forge": "^0.8.2"
   }
