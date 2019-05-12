@@ -1,6 +1,6 @@
 {
   "name": "@pureproxy/mitmproxy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mitm, intercepting proxy server designed with simplicity and extensibility in mind",
   "main": "lib/index.js",
   "directories": {
