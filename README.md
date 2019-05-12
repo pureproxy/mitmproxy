@@ -96,8 +96,10 @@ server.listen(8080)
 
 The general FAQ can be found in the [mitmproxy](https://github.com/pureproxy/pureproxy) project page.
 
-**Q: Can I intercept TLS/SSL?** - You can intercept any traffic by performing an active man-in-the-middle attack against the connected clients.
+**Q: Can I intercept TLS/SSL?** - You can intercept any traffic by performing an active man-in-the-middle attack against the connected clients. This is done by default with MITM Proxy if `shouldIntercept` returns `true`.
 
-**Q: How can I intercept the whole HTTP request/response?** - This can be implemented in a similar way as [mitmproxy](https://github.com/pureproxy/pureproxy) parses HTTP requests. This library does not come with builtin mechanisms for this.
+**Q: How can I intercept the whole HTTP request/response?** - This can be implemented in a similar way as [pureproxy](https://github.com/pureproxy/pureproxy) parses HTTP requests. This library does not come with builtin mechanisms for this.
 
 **Q: Who is using this library?** - The code is used in [secapps.com](https://secapps.com) tools and services. It is also used by [Pown Proxy](https://github.com/pownjs/pown-proxy) tool.
+
+**Q: Can you make the API programmer-friendly?** - I did. Checkout out [utils](https://github.com/pureproxy/utils) for example how to implement full-features proxy servers with minimal requirements and development overhead.
