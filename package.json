@@ -34,6 +34,6 @@
   "dependencies": {
     "@pureproxy/pureproxy": "^1.1.1",
     "native-duplexpair": "^1.0.0",
-    "node-forge": "^0.10.0"
+    "node-forge": "^1.0.0"
   }
 }
