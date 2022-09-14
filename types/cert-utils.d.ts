@@ -1,7 +1,7 @@
 export function generateSerialNumber(): string;
 export function generateDateOffsetByYears(years: any): Date;
-export function generateGenericKeysAndCert({ serialNumber, keyLength, notBefore, notAfter, }?: {
-    serialNumber?: string;
+export function generateGenericKeysAndCert(options?: {
+    serialNumber?: number;
     keyLength?: number;
     notBefore?: Date;
     notAfter?: Date;
@@ -9,23 +9,23 @@ export function generateGenericKeysAndCert({ serialNumber, keyLength, notBefore,
     keys: any;
     cert: any;
 };
-export function generateCaKeysAndCert({ commonName, serialNumber, keyLength, notBefore, notAfter, }?: {
-    commonName: any;
-    serialNumber: any;
-    keyLength: any;
-    notBefore: any;
-    notAfter: any;
+export function generateCaKeysAndCert(options: {
+    commonName: string;
+    serialNumber?: number;
+    keyLength?: number;
+    notBefore?: Date;
+    notAfter?: Date;
 }): {
     keys: any;
     cert: any;
 };
-export function generateServerKeysAndCert({ commonName, caKeysAndCert, serialNumber, keyLength, notBefore, notAfter, }?: {
-    commonName: any;
-    caKeysAndCert: any;
-    serialNumber: any;
-    keyLength: any;
-    notBefore: any;
-    notAfter: any;
+export function generateServerKeysAndCert(options: {
+    commonName: string;
+    caKeysAndCert: Record<string, any>;
+    serialNumber?: number;
+    keyLength?: number;
+    notBefore?: Date;
+    notAfter?: Date;
 }): {
     keys: any;
     cert: any;
