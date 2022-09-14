@@ -31,7 +31,7 @@
   },
   "scripts": {
     "build": "run-s build:*",
-    "build:types": "npx -p typescript tsc --declaration --emitDeclarationOnly --outDir types",
+    "build:types": "npx -p typescript tsc",
     "format": "run-s format:*",
     "format:pkg": "npx format-package -w",
     "format:src": "npx prettier -w lib/",
@@ -41,16 +41,16 @@
   },
   "types": "types/index.d.ts",
   "dependencies": {
-    "@pureproxy/pureproxy": "^2.0.1",
+    "@pureproxy/pureproxy": "^2.1.0",
     "native-duplexpair": "^1.0.0",
     "node-forge": "^0.10.0"
   },
   "devDependencies": {
-    "husky": "^8.0.1",
     "@types/node": "^18.7.15",
     "eslint": "8.17.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-require-path-exists": "^1.1.9",
+    "husky": "^8.0.1",
     "npm-run-all": "^4.1.5"
   }
 }

@@ -1,20 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2020",
     "lib": [
-      "esnext"
+      "es2020"
     ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
-    "forceConsistentCasingInFileNames": true,
-    "incremental": true,
     "esModuleInterop": true,
-    "module": "esnext",
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+    "alwaysStrict": true,
+    "noImplicitThis": true,
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve"
+    "forceConsistentCasingInFileNames": true,
+    "module": "es2020",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "./types"
   },
   "include": [
     "lib/*.js"
