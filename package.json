@@ -1,6 +1,6 @@
 {
   "name": "@pureproxy/mitmproxy",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "Mitm, intercepting proxy server designed with simplicity and extensibility in mind",
   "license": "MIT",
   "repository": {
