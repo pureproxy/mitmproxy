@@ -43,7 +43,7 @@
   "dependencies": {
     "@pureproxy/pureproxy": "^2.1.0",
     "native-duplexpair": "^1.0.0",
-    "node-forge": "^0.10.0"
+    "node-forge": "^1.3.1"
   },
   "devDependencies": {
     "@types/node": "^18.7.15",
